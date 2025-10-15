@@ -1,6 +1,6 @@
 export const FloatingCTA = () => {
   return (
-    <div className="fixed box-border caret-transparent translate-y-[-50.0%] z-[999] right-0 top-2/4">
+    <div className="fixed box-border caret-transparent -translate-y-1/2 z-[999] right-0 top-1/2">
       <a
         href="https://www.awwwards.com/sites/added-2"
         className="box-border caret-transparent underline"

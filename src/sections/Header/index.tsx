@@ -1,10 +1,9 @@
 import { HeaderOverlay } from "./components/HeaderOverlay";
 import { Navbar } from "./components/Navbar";
-// import styles from './index.module.css';
 
 export const Header = () => {
   return (
-      <div className="box-border caret-transparent">
+    <div className="box-border caret-transparent">
       <HeaderOverlay />
       <Navbar />
       <main className="box-border caret-transparent">
@@ -13,17 +12,18 @@ export const Header = () => {
             <div className="box-border caret-transparent px-3 md:px-[22.4px]">
               <div className="relative content-start items-start box-border caret-transparent gap-x-4 flex flex-col auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] h-auto justify-start justify-items-start gap-y-4 w-full z-[1] pt-[102.4px] md:items-center md:gap-x-[normal] md:flex-row md:h-[1000px] md:justify-center md:gap-y-[normal] md:pt-0">
                 <div className="relative items-center box-border caret-transparent hidden h-[600px] justify-center max-h-none max-w-none w-[351px] z-[-1] overflow-hidden my-4 rounded-xl md:absolute md:h-[512px] md:max-h-[700px] md:max-w-[700px] md:w-[512px] md:overflow-visible md:my-0 md:rounded-none">
-                  <p
-                    aria-label="Design, Development and Growth. Added together to create something bigger."
-                    className="text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6"
-                  >
-                    <span className="relative text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6">
-                      Design, Development and Growth.{' '}
-                    </span>
-                    <span className="relative text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6">
-                      Added together to create something bigger.
-                    </span>
-                  </p>
+                  <img
+                    src="https://c.animaapp.com/mgrmwkbjEVesmp/assets/68e76aedc11a659a28d0f9ef_Frame_2085653009.webp"
+                    sizes="100vw"
+                    alt=""
+                    className="absolute box-border caret-transparent h-full max-w-full object-cover rounded-2xl"
+                  />
+                  <img
+                    src="https://c.animaapp.com/mgrmwkbjEVesmp/assets/68e76aedc11a659a28d0f9ec_Frame_2085653009.webp"
+                    sizes="100vw"
+                    alt=""
+                    className="absolute box-border caret-transparent h-full max-w-full object-cover rounded-2xl"
+                  />
                   <img
                     src="https://c.animaapp.com/mgrmwkbjEVesmp/assets/68e76aedc11a659a28d0f9b9_h.png"
                     sizes="100vw"
@@ -169,7 +169,8 @@ export const Header = () => {
                       sizes="(max-width: 1930px) 100vw, 1930px"
                       alt=""
                       src="https://c.animaapp.com/mgrmwkbjEVesmp/assets/68e76aedc11a659a28d0f9cd_aaa.webp"
-                      className="box-border caret-transparent hidden max-w-full min-h-0 min-w-0 object-cover w-full rounded-bl rounded-br rounded-tl rounded-tr md:block md:min-h-[auto] md:min-w-[auto]" />
+                      className="box-border caret-transparent hidden max-w-full min-h-0 min-w-0 object-cover w-full rounded-bl rounded-br rounded-tl rounded-tr md:block md:min-h-[auto] md:min-w-[auto]"
+                    />
                     <div className="items-center box-border caret-transparent flex flex-col h-full justify-center overflow-hidden rounded-lg md:[align-items:normal] md:block md:flex-row md:h-auto md:justify-normal md:overflow-visible md:rounded-none">
                       <img
                         sizes="(max-width: 989px) 100vw, 989px"
@@ -661,12 +662,12 @@ export const Header = () => {
                       />
                     </a>
                     <div className="box-border caret-transparent flex flex-col justify-between">
-                      <span className="box-border caret-transparent">
+                      <p className="box-border caret-transparent">
                         Webflow vs WordPress: which should you choose?
-                      </span>
-                      <span className="text-neutral-400 box-border caret-transparent">
+                      </p>
+                      <p className="text-neutral-400 box-border caret-transparent">
                         August 14, 2025
-                      </span>
+                      </p>
                     </div>
                   </div>
                 </div>
