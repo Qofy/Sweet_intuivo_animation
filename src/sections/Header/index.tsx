@@ -24,7 +24,6 @@ export const Header = () => {
                       Added together to create something bigger.
                     </span>
                   </p>
-                  />
                   <img
                     src="https://c.animaapp.com/mgrmwkbjEVesmp/assets/68e76aedc11a659a28d0f9b9_h.png"
                     sizes="100vw"
