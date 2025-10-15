@@ -5,12 +5,12 @@ export const HeroDescription = () => {
         aria-label="Design, Development and Growth. Added together to create something bigger."
         className="text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6"
       >
-        <div className="relative text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6">
+        <span className="relative text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6">
           Design, Development and Growth.{" "}
-        </div>
-        <div className="relative text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6">
+        </span>
+        <span className="relative text-[19.2px] box-border caret-transparent leading-[23.04px] break-keep md:text-base md:leading-6">
           Added together to create something bigger.
-        </div>
+        </span>
       </p>
     </div>
   );
