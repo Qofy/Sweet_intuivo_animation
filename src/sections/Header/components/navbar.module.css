@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  background-color: #0a0a0a;
+  box-sizing: border-box;
+  caret-color: transparent;
+  transform: translateY(-0.5%);
+  z-index: 10;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    transform: none;
+  }
+}
+
+.divider {
+  position: absolute;
+  background-color: rgba(255,255,255,0.1);
+  box-sizing: border-box;
+  caret-color: transparent;
+  height: 1px;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}

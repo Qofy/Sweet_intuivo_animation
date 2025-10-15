@@ -1,0 +1,92 @@
+.headerContainer {
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+.main {
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+.heroSection {
+  box-sizing: border-box;
+  caret-color: transparent;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .heroSection {
+    height: 4000px;
+  }
+}
+
+.heroInner {
+  position: static;
+  align-items: stretch;
+  box-sizing: border-box;
+  caret-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: flex-start;
+  opacity: 0;
+  top: 0%;
+}
+
+@media (min-width: 768px) {
+  .heroInner {
+    position: sticky;
+    height: 1000px;
+    justify-content: center;
+    opacity: 1;
+  }
+}
+
+.heroContent {
+  box-sizing: border-box;
+  caret-color: transparent;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .heroContent {
+    padding-left: 22.4px;
+    padding-right: 22.4px;
+  }
+}
+
+.heroGrid {
+  position: relative;
+  align-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  caret-color: transparent;
+  column-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  height: auto;
+  justify-content: flex-start;
+  justify-items: start;
+  row-gap: 1rem;
+  width: 100%;
+  z-index: 1;
+  padding-top: 102.4px;
+}
+
+@media (min-width: 768px) {
+  .heroGrid {
+    align-items: center;
+    column-gap: normal;
+    flex-direction: row;
+    height: 1000px;
+    justify-content: center;
+    row-gap: normal;
+    padding-top: 0;
+  }
+}
+
+/* ...continue for all other nested elements as needed... */

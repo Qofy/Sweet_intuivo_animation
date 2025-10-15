@@ -1,0 +1,38 @@
+.container {
+  box-sizing: border-box;
+  caret-color: transparent;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 22.4px;
+    padding-right: 22.4px;
+  }
+}
+
+.inner {
+  align-items: center;
+  box-sizing: border-box;
+  caret-color: transparent;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22.4px;
+  padding-bottom: 19.2px;
+  position: relative;
+}
+
+.absoluteCenter {
+  position: absolute;
+  align-items: center;
+  box-sizing: border-box;
+  caret-color: transparent;
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+  inset: 0%;
+}
