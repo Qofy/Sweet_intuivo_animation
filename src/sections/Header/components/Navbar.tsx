@@ -1,10 +1,10 @@
 import { NavbarContent } from "./NavbarContent";
-import styles from './navbar.module.css';
+// import styles from './navbar.module.css';
 
 export const Navbar = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.divider}></div>
+    <div className="fixed bg-neutral-950 box-border caret-transparent translate-y-[-0.5%] z-10 top-[0%] inset-x-[0%] md:transform-none">
+      <div className="absolute bg-white/10 box-border caret-transparent h-px w-full bottom-[0%] inset-x-[0%]"></div>
       <NavbarContent />
     </div>
   );
